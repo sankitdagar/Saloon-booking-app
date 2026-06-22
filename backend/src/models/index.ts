@@ -1,0 +1,9 @@
+export { User, IUser } from './User';
+export { Service, IService } from './Service';
+export { Staff, IStaff } from './Staff';
+export { Booking, IBooking } from './Booking';
+export { Review, IReview } from './Review';
+export { Coupon, ICoupon } from './Coupon';
+export { SaloonSettings, ISaloonSettings } from './SaloonSettings';
+export { Notification, INotification } from './Notification';
+export { Wishlist, IWishlist } from './Wishlist';
