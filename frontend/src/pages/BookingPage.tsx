@@ -20,7 +20,7 @@ export default function BookingPage() {
   const [time, setTime] = useState('');
   const [couponCode, setCouponCode] = useState('');
   const [discount, setDiscount] = useState(0);
-  const [paymentMethod, setPaymentMethod] = useState<'pay_at_saloon'>('pay_at_saloon');
+  const [paymentMethod, setPaymentMethod] = useState<'pay_at_saloon' | 'online'>('pay_at_saloon');
   const [notes, setNotes] = useState('');
 
   const { data: servicesData } = useQuery({
